@@ -58,8 +58,8 @@ app.post("/api/upload", upload.single("file"), (req, res) => {
   res.status(200).json("Image has been uploaded successfully!");
 });
 
-app.listen(process.env.PORT, () => {
-  connectDB();
-  console.log("app is running on port " + process.env.PORT);
-});
+// app.listen(process.env.PORT, () => {
+//   connectDB();
+//   console.log("app is running on port " + process.env.PORT);
+// });
 module.exports = app;
