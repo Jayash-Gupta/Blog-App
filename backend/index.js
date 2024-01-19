@@ -32,7 +32,7 @@ app.use("/images", express.static(path.join(__dirname, "/images")));
 app.use(
   cors({
     origin:
-      "https://blog-app-server-gbs3kjns1-jayash-guptas-projects.vercel.app/",
+      "https://blog-app-server-2ifct7vd5-jayash-guptas-projects.vercel.app",
     credentials: true,
   })
 );
